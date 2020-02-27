@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F71EE4BB23FA3D0800BA3A37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F71EE4BA23FA3D0800BA3A37 /* AppDelegate.m */; };
+		F71EE4C123FA3D0800BA3A37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71EE4C023FA3D0800BA3A37 /* ViewController.m */; };
+		F71EE4C423FA3D0800BA3A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71EE4C223FA3D0800BA3A37 /* Main.storyboard */; };
+		F71EE4C623FA3D0D00BA3A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71EE4C523FA3D0D00BA3A37 /* Assets.xcassets */; };
+		F71EE4C923FA3D0D00BA3A37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71EE4C723FA3D0D00BA3A37 /* LaunchScreen.storyboard */; };
+		F71EE4CC23FA3D0D00BA3A37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F71EE4CB23FA3D0D00BA3A37 /* main.m */; };
+		F71EE4D623FA3D0D00BA3A37 /* OnedayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F71EE4D523FA3D0D00BA3A37 /* OnedayTests.m */; };
+		F71EE4E123FA3D0D00BA3A37 /* OnedayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F71EE4E023FA3D0D00BA3A37 /* OnedayUITests.m */; };
+		F71EE4F023FA49DD00BA3A37 /* SwitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71EE4EF23FA49DD00BA3A37 /* SwitViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F71EE4D223FA3D0D00BA3A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71EE4AE23FA3D0800BA3A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71EE4B523FA3D0800BA3A37;
+			remoteInfo = Oneday;
+		};
+		F71EE4DD23FA3D0D00BA3A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71EE4AE23FA3D0800BA3A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71EE4B523FA3D0800BA3A37;
+			remoteInfo = Oneday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F71EE4B623FA3D0800BA3A37 /* Oneday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oneday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71EE4B923FA3D0800BA3A37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F71EE4BA23FA3D0800BA3A37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F71EE4BF23FA3D0800BA3A37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F71EE4C023FA3D0800BA3A37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F71EE4C323FA3D0800BA3A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F71EE4C523FA3D0D00BA3A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F71EE4C823FA3D0D00BA3A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F71EE4CA23FA3D0D00BA3A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71EE4CB23FA3D0D00BA3A37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F71EE4D123FA3D0D00BA3A37 /* OnedayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnedayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71EE4D523FA3D0D00BA3A37 /* OnedayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnedayTests.m; sourceTree = "<group>"; };
+		F71EE4D723FA3D0D00BA3A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71EE4DC23FA3D0D00BA3A37 /* OnedayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnedayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71EE4E023FA3D0D00BA3A37 /* OnedayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnedayUITests.m; sourceTree = "<group>"; };
+		F71EE4E223FA3D0D00BA3A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71EE4EE23FA49DD00BA3A37 /* Oneday-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Oneday-Bridging-Header.h"; sourceTree = "<group>"; };
+		F71EE4EF23FA49DD00BA3A37 /* SwitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitViewController.swift; sourceTree = "<group>"; };
+		F71EE4F123FA4AC300BA3A37 /* Oneday-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Oneday-Swift.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F71EE4B323FA3D0800BA3A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71EE4CE23FA3D0D00BA3A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71EE4D923FA3D0D00BA3A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F71EE4AD23FA3D0800BA3A37 = {
+			isa = PBXGroup;
+			children = (
+				F71EE4F123FA4AC300BA3A37 /* Oneday-Swift.h */,
+				F71EE4B823FA3D0800BA3A37 /* Oneday */,
+				F71EE4D423FA3D0D00BA3A37 /* OnedayTests */,
+				F71EE4DF23FA3D0D00BA3A37 /* OnedayUITests */,
+				F71EE4B723FA3D0800BA3A37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F71EE4B723FA3D0800BA3A37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71EE4B623FA3D0800BA3A37 /* Oneday.app */,
+				F71EE4D123FA3D0D00BA3A37 /* OnedayTests.xctest */,
+				F71EE4DC23FA3D0D00BA3A37 /* OnedayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71EE4B823FA3D0800BA3A37 /* Oneday */ = {
+			isa = PBXGroup;
+			children = (
+				F71EE4B923FA3D0800BA3A37 /* AppDelegate.h */,
+				F71EE4BA23FA3D0800BA3A37 /* AppDelegate.m */,
+				F71EE4EF23FA49DD00BA3A37 /* SwitViewController.swift */,
+				F71EE4BF23FA3D0800BA3A37 /* ViewController.h */,
+				F71EE4C023FA3D0800BA3A37 /* ViewController.m */,
+				F71EE4C223FA3D0800BA3A37 /* Main.storyboard */,
+				F71EE4C523FA3D0D00BA3A37 /* Assets.xcassets */,
+				F71EE4C723FA3D0D00BA3A37 /* LaunchScreen.storyboard */,
+				F71EE4CA23FA3D0D00BA3A37 /* Info.plist */,
+				F71EE4CB23FA3D0D00BA3A37 /* main.m */,
+				F71EE4EE23FA49DD00BA3A37 /* Oneday-Bridging-Header.h */,
+			);
+			path = Oneday;
+			sourceTree = "<group>";
+		};
+		F71EE4D423FA3D0D00BA3A37 /* OnedayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F71EE4D523FA3D0D00BA3A37 /* OnedayTests.m */,
+				F71EE4D723FA3D0D00BA3A37 /* Info.plist */,
+			);
+			path = OnedayTests;
+			sourceTree = "<group>";
+		};
+		F71EE4DF23FA3D0D00BA3A37 /* OnedayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F71EE4E023FA3D0D00BA3A37 /* OnedayUITests.m */,
+				F71EE4E223FA3D0D00BA3A37 /* Info.plist */,
+			);
+			path = OnedayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F71EE4B523FA3D0800BA3A37 /* Oneday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71EE4E523FA3D0D00BA3A37 /* Build configuration list for PBXNativeTarget "Oneday" */;
+			buildPhases = (
+				F71EE4B223FA3D0800BA3A37 /* Sources */,
+				F71EE4B323FA3D0800BA3A37 /* Frameworks */,
+				F71EE4B423FA3D0800BA3A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oneday;
+			productName = Oneday;
+			productReference = F71EE4B623FA3D0800BA3A37 /* Oneday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F71EE4D023FA3D0D00BA3A37 /* OnedayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71EE4E823FA3D0D00BA3A37 /* Build configuration list for PBXNativeTarget "OnedayTests" */;
+			buildPhases = (
+				F71EE4CD23FA3D0D00BA3A37 /* Sources */,
+				F71EE4CE23FA3D0D00BA3A37 /* Frameworks */,
+				F71EE4CF23FA3D0D00BA3A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F71EE4D323FA3D0D00BA3A37 /* PBXTargetDependency */,
+			);
+			name = OnedayTests;
+			productName = OnedayTests;
+			productReference = F71EE4D123FA3D0D00BA3A37 /* OnedayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F71EE4DB23FA3D0D00BA3A37 /* OnedayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71EE4EB23FA3D0D00BA3A37 /* Build configuration list for PBXNativeTarget "OnedayUITests" */;
+			buildPhases = (
+				F71EE4D823FA3D0D00BA3A37 /* Sources */,
+				F71EE4D923FA3D0D00BA3A37 /* Frameworks */,
+				F71EE4DA23FA3D0D00BA3A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F71EE4DE23FA3D0D00BA3A37 /* PBXTargetDependency */,
+			);
+			name = OnedayUITests;
+			productName = OnedayUITests;
+			productReference = F71EE4DC23FA3D0D00BA3A37 /* OnedayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F71EE4AE23FA3D0800BA3A37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "乐城";
+				TargetAttributes = {
+					F71EE4B523FA3D0800BA3A37 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					F71EE4D023FA3D0D00BA3A37 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F71EE4B523FA3D0800BA3A37;
+					};
+					F71EE4DB23FA3D0D00BA3A37 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F71EE4B523FA3D0800BA3A37;
+					};
+				};
+			};
+			buildConfigurationList = F71EE4B123FA3D0800BA3A37 /* Build configuration list for PBXProject "Oneday" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F71EE4AD23FA3D0800BA3A37;
+			productRefGroup = F71EE4B723FA3D0800BA3A37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F71EE4B523FA3D0800BA3A37 /* Oneday */,
+				F71EE4D023FA3D0D00BA3A37 /* OnedayTests */,
+				F71EE4DB23FA3D0D00BA3A37 /* OnedayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F71EE4B423FA3D0800BA3A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71EE4C923FA3D0D00BA3A37 /* LaunchScreen.storyboard in Resources */,
+				F71EE4C623FA3D0D00BA3A37 /* Assets.xcassets in Resources */,
+				F71EE4C423FA3D0800BA3A37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71EE4CF23FA3D0D00BA3A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71EE4DA23FA3D0D00BA3A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F71EE4B223FA3D0800BA3A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71EE4C123FA3D0800BA3A37 /* ViewController.m in Sources */,
+				F71EE4F023FA49DD00BA3A37 /* SwitViewController.swift in Sources */,
+				F71EE4BB23FA3D0800BA3A37 /* AppDelegate.m in Sources */,
+				F71EE4CC23FA3D0D00BA3A37 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71EE4CD23FA3D0D00BA3A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71EE4D623FA3D0D00BA3A37 /* OnedayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71EE4D823FA3D0D00BA3A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71EE4E123FA3D0D00BA3A37 /* OnedayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F71EE4D323FA3D0D00BA3A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71EE4B523FA3D0800BA3A37 /* Oneday */;
+			targetProxy = F71EE4D223FA3D0D00BA3A37 /* PBXContainerItemProxy */;
+		};
+		F71EE4DE23FA3D0D00BA3A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71EE4B523FA3D0800BA3A37 /* Oneday */;
+			targetProxy = F71EE4DD23FA3D0D00BA3A37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F71EE4C223FA3D0800BA3A37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F71EE4C323FA3D0800BA3A37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F71EE4C723FA3D0D00BA3A37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F71EE4C823FA3D0D00BA3A37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F71EE4E323FA3D0D00BA3A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F71EE4E423FA3D0D00BA3A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F71EE4E623FA3D0D00BA3A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R347999QXA;
+				INFOPLIST_FILE = Oneday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.Oneday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/feiteng/Desktop/Oneday/Oneday-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F71EE4E723FA3D0D00BA3A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R347999QXA;
+				INFOPLIST_FILE = Oneday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.Oneday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/feiteng/Desktop/Oneday/Oneday-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F71EE4E923FA3D0D00BA3A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R347999QXA;
+				INFOPLIST_FILE = OnedayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.OnedayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oneday.app/Oneday";
+			};
+			name = Debug;
+		};
+		F71EE4EA23FA3D0D00BA3A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R347999QXA;
+				INFOPLIST_FILE = OnedayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.OnedayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oneday.app/Oneday";
+			};
+			name = Release;
+		};
+		F71EE4EC23FA3D0D00BA3A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R347999QXA;
+				INFOPLIST_FILE = OnedayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.OnedayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oneday;
+			};
+			name = Debug;
+		};
+		F71EE4ED23FA3D0D00BA3A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R347999QXA;
+				INFOPLIST_FILE = OnedayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxd.OnedayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oneday;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F71EE4B123FA3D0800BA3A37 /* Build configuration list for PBXProject "Oneday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71EE4E323FA3D0D00BA3A37 /* Debug */,
+				F71EE4E423FA3D0D00BA3A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71EE4E523FA3D0D00BA3A37 /* Build configuration list for PBXNativeTarget "Oneday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71EE4E623FA3D0D00BA3A37 /* Debug */,
+				F71EE4E723FA3D0D00BA3A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71EE4E823FA3D0D00BA3A37 /* Build configuration list for PBXNativeTarget "OnedayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71EE4E923FA3D0D00BA3A37 /* Debug */,
+				F71EE4EA23FA3D0D00BA3A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71EE4EB23FA3D0D00BA3A37 /* Build configuration list for PBXNativeTarget "OnedayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71EE4EC23FA3D0D00BA3A37 /* Debug */,
+				F71EE4ED23FA3D0D00BA3A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F71EE4AE23FA3D0800BA3A37 /* Project object */;
+}
